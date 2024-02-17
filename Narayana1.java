@@ -2,7 +2,7 @@
 
 public class Narayana1{
   public static void main(String[] args){
-    Arraylist<Integer> Nums = new Arraylist<Integer>;
+    ArrayList<Integer> Nums = new ArrayList<Integer>;
     Nums.add(12);
     Nums.add(13);
     Nums.add(14);
@@ -11,3 +11,4 @@ public class Narayana1{
     System.out.println(Nums);
   }
 }
+//_revised arraylist in java Take_2
