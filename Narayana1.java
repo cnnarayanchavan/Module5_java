@@ -1,5 +1,5 @@
 // Arraylist
-
+import java.util.ArrayList;
 public class Narayana1{
   public static void main(String[] args){
     ArrayList<Integer> Nums = new ArrayList<Integer>;
