@@ -13,6 +13,8 @@ public class Narayana1{
       System.out.println(Nums.get(i));
     }
     System.out.println(Nums.get(3));
+    System.out.println(Nums.remove(3));
+    
   }
 
 }
