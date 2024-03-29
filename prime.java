@@ -11,11 +11,11 @@ public class prime{
       if(num%i==0){
         count++;
       }
-      if(count==2){
+    }
+    if(count==2){
         System.out.println("Prime number");
       }
       else System.out.println("Not prime number");
-    }
       
   }
 }
