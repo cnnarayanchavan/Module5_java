@@ -1,6 +1,6 @@
 //the number which has exact tow factors ("PRIME NUMBER")
 // one and the number itself
-java.util.*;
+import java.util.Scanner;
 public class prime{
   public static void main(String[]args){
     Scanner sc = new Scanner(System.in);
