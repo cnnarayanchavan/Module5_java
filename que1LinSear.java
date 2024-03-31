@@ -1,4 +1,4 @@
-java.util.Arrays;
+import java.util.Arrays;
 public class que1LinSear{
   int[] Array1 = {12,15,161,202,149};
   for(int i =0; i<Array1.length; i++){
