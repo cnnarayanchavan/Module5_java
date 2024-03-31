@@ -30,6 +30,7 @@ public class que2LinSear {
     }
 }
 
+//LeetCode second:     Richest customer wealth question 2D array with liner search 
 
 
 
