@@ -7,6 +7,9 @@ public class que1LinSear{
       if(int_to_str.length()%2==0){
         System.out.print(Array1[i] + " ");
       }
-  }
+    }
   }
 }
+
+//PROBLEM STATEMENT
+//GIVEN AN ARRAY NUMBER OF INTEGER, RETURN HOW MANY OF THEM CONTAIN EVEN NUMBER OF DIGITS
