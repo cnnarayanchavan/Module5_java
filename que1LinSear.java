@@ -5,6 +5,6 @@ public class que1LinSear{
   for(int i =0; i<Array1.length; i++){
       String intToStr = Integer.toString(i);
   }
-System.out.println("Length of an string is" + intToStr.length());
+System.out.println("Length of an string is" + intToStr.length(i));
   }
 }
