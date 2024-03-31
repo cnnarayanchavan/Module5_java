@@ -17,3 +17,7 @@ public class linerSearchDSA {
     }
 
 }
+
+// The time complexity of this search algo is
+// BEST CASE : O(1)
+// WORST CASE : O(N) , N=>Size of an array 
