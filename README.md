@@ -8,5 +8,5 @@ Difficult level : Easy
 
 Day2
 Difficult level : Easy 
-sub: Binary Search
+sub: Binary Search Algo.
 
