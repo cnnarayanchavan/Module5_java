@@ -6,3 +6,7 @@ all it's take a four steps process
 started solving leetcode question 
 Difficult level : Easy
 
+Day2
+Difficult level : Easy 
+sub: Binary Search
+
