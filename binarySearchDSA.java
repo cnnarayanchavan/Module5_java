@@ -17,9 +17,9 @@ public class binarySearchDSA{
         startInd = midInd + 1; 
       }
       else if(targetEle < Array[midInd]){
-        startInd = midInd - 1;
+        endInd = midInd - 1;
       }
-      else{
+      else if (targetEle == Array[midInd]){
         return midInd;
       }
     }
