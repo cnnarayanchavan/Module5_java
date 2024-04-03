@@ -2,7 +2,7 @@ public class binarySearchDSA{
   public static void main(String[]args){
     int[] arr = {2,8,16,18,19,20,22,25};
     int Target = 16;  
-    System.out.Println(binarySer(arr,Target));
+    System.out.println(binarySer(arr,Target));
   }
   
   static int binarySer(int[] Array, int targetEle){
