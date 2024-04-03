@@ -2,10 +2,12 @@ public class binarySearchDSA{
   public static void main(String[]args){
     int[] arr = {2,8,16,18,19,20,22,25};
     int Target = 16;  
+    System.out.Println(binarySer(arr,target));
   }
-  static int binarySer(int[] Array, targetEle){
+  
+  static int binarySer(int[] Array, int targetEle){
     int startInd = 0;
-    int endInd = Array.length-1 
+    int endInd = Array.length-1l 
     while(start<=endInd){
       int midInd = startInd+(endInd-startInd)/2;
       if(targetEle > Array[midInd]){
