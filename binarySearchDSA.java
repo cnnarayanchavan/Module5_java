@@ -19,7 +19,7 @@ public class binarySearchDSA{
       else{
         return midInd;
       }
-      return "Element not found, enter valid element"
+      return System.out.println("Element not found, enter valid element");
     }
   }
 }
