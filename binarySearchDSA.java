@@ -7,8 +7,8 @@ public class binarySearchDSA{
   
   static int binarySer(int[] Array, int targetEle){
     int startInd = 0;
-    int endInd = Array.length-1l 
-    while(start<=endInd){
+    int endInd = Array.length-1; 
+    while(startInd<=endInd){
       int midInd = startInd+(endInd-startInd)/2;
       if(targetEle > Array[midInd]){
         startInd = midInd + 1; 
