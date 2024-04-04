@@ -15,11 +15,11 @@ public class binarySearchDSA_Desc{
       if(tar < arrr[mid]){
         start = mid + 1;
       }
-      if(tar < arrr[mid]){
+      else if(tar < arrr[mid]){
         end = mid - 1;
       }
-      else{
-        return tar==mid;
+      else if(tar==arrr[mid]){
+        return mid;
       }
     }
     return -1;  //if element is not found
