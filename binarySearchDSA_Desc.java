@@ -19,7 +19,7 @@ public class binarySearchDSA_Desc{
         end = mid - 1;
       }
       else{
-        return tar==arrr[mid];
+        return tar==mid;
       }
     }
     return -1;  //if element is not found
