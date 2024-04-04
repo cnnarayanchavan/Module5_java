@@ -3,7 +3,7 @@ public class binarySearchDSA_Desc{
     int arr[] = {72,68,58,48,38,27,22,18,15,5};
     int target = 22;
     int op = searchInDes(arr,target);
-    system.out.println(op);
+    System.out.println(op);
     
     
   }
@@ -18,8 +18,8 @@ public class binarySearchDSA_Desc{
       if(tar < arrr[mid]){
         end = mid - 1;
       }
-      else(tar==arrr[mid]){
-        return arrr[mid];
+      else{
+        return tar==arrr[mid];
       }
     }
     return -1;  //if element is not found
