@@ -6,7 +6,7 @@ public class binarySearchDSA{
     int OP = binarySer(arr,Target);
     System.out.println(OP);
   }
-  
+
   static int binarySer(int[] Array, int targetEle){
     int startInd = 0;
     int endInd = Array.length-1; 
