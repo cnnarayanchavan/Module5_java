@@ -2,8 +2,8 @@ import java.util.Arrays;
 public class bubbleSortTech_DSA {
   public static void main(String[]args){
     int[] array = {5,4,6,88,9,7,90,5,};
-   int ans = bubbleSort(Arrays.toString(array));
-    System.out.println(ans); 
+   bubbleSort(array);
+   
   }
   static int bubbleSort(int[] arr){
     for(int i = 0; i<arr.length; i++){
