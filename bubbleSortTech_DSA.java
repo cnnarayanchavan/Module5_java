@@ -25,8 +25,8 @@ import java.util.Arrays;
       for(int j = 1; j<arr.length-1; j++){  // here with every iteration the last element in array will be sorted so no need to go on that index 
          if(arr[j]<arr[j-1]){
            int temp = arr[j];
-           arr[j] = arr[i];
-           arr[i] = temp;
+           arr[j] = arr[j-1];
+           arr[j-1] = temp;
          }
        }
      }
