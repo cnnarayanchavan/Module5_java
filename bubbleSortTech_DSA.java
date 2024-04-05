@@ -3,7 +3,7 @@ public class bubbleSortTech_DSA {
   public static void main(String[]args){
     int[] array = {5,4,6,88,9,7,90,5,};
    bubbleSort(array);
-   
+   System.out.println(Arrays.toString(array)); 
   }
   static int bubbleSort(int[] arr){
     for(int i = 0; i<arr.length; i++){
