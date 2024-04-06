@@ -7,8 +7,8 @@ public class selectionSortDSA{
     int max = 0;
     int end = Arr1.length-1;
     int temp;
-    for(int i = 0; i<arr.length-1; i++){
-      if(max<arr[i]){
+    for(int i = 0; i<Arr1.length-1; i++){
+      if(max<Arr1[i]){
         max = i;
         temp = max;
         max = end;
