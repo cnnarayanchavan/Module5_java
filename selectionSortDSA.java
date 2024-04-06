@@ -9,9 +9,9 @@ public class selectionSortDSA{
       int max = 0;
       if(max<arr[i]){
         max = arr[i];
-        return max;
       }
     }
+     return max;
   }
 }
 
