@@ -1,6 +1,6 @@
 import java.util.Arrays;
 public class selectionSortDSA{
-  publci static void main(String[]args){
+  public static void main(String[]args){
     int[] arr = {7,4,9,2,10};
     for(int i = 0; i<arr.length-1; i++){
       int max = 0;
@@ -14,7 +14,7 @@ public class selectionSortDSA{
       arr[end] = temp;
       }
     }
-    System.ot.println(Arrays.toString(arr));
+    System.out.println(Arrays.toString(arr));
   }
 }
 
