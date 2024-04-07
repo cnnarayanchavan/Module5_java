@@ -4,7 +4,7 @@ public class selectionSortDSA{
     int[] arr = {7,4,9,2,10};
     for(int i = 0; i<arr.length; i++){
       int max = 0;
-      int end = arr.length-i-1;
+      int end = arr.length-1;
       for(int j = 0; j<=end; j++){
       if(max<arr[j]){
         max = i;
