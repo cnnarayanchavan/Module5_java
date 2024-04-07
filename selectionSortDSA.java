@@ -1,26 +1,10 @@
 import java.util.Arrays;
 public class selectionSortDSA{
-<<<<<<< HEAD
-  public static void main(String[]args){
-    int[] arr = {9,8,7,6,5};
-    for(int i = 0; i<arr.length; i++){
-    int max = 0;
-    int end = arr.length - i - 1;
-    if(arr[max]<arr[i]){
-        max = i;
-      }
-    for(int j = 0; j<=end; j++){
-    int temp = arr[max];
-    arr[max] = arr[end];
-    arr[end] = temp;
-      }
-=======
   public static void main(String[] args)
     {
         int[] arr = {4,3,6,9,1};
         selectionSort(arr);
         System.out.println(Arrays.toString(arr));
->>>>>>> dbf83e8b288c59e636a7823241448928415cb8ad
     }
 
     public static void selectionSort(int[] arr){
