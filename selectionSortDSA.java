@@ -1,20 +1,20 @@
 import java.util.Arrays;
-
 public class selectionSortDSA{
-  public static void main(String[]args){
-    int[] arr = {4,5,6,7,12};
-    int max = 0;
-    for (int i = 0; i < arr.length; i++) {
-      for (int j = i+1; j < arr.length; j++) {
-        if(arr[max] < arr[j]){
-          max = arr[j];
-        }
-        int temp = arr[max];
-        arr[max] = arr[i];
-        arr[i] = temp;
+  publci static void main(String[]args){
+    int[] arr = {7,4,9,2,10};
+    for(int i = 0; i<arr.length-1; i++){
+      int max = 0;
+      int end = arr.length-i-1;
+      for(int j = 0; j<=end; j++){
+      if(max<arr[j]){
+        max= arr[i];
+      }
+      int temp = arr[max];
+      arr[max] = arr[end];
+      arr[end] = temp;
       }
     }
-    System.out.println(Arrays.toString(arr));
+    System.ot.println(Arrays.toString(arr));
   }
 }
 
